@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Discover timeless fashion, elegant essentials and effortless style at Peaceful Varieties."
+    />
+
+    <meta name="theme-color" content="#f7f4ec" />
+
+    <title>Peaceful Varieties | Timeless Fashion</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Announcement bar -->
+    <div class="announcement">
+      Thoughtfully chosen fashion. Effortlessly yours.
+    </div>
+
+    <!-- Header and navigation -->
+    <header class="header" id="top">
+      <div class="container nav-wrapper">
+        <a class="logo" href="#top" aria-label="Peaceful Varieties home">
+          <span class="logo-mark">P<span>V</span></span>
+          <span class="logo-name">Peaceful Varieties</span>
+          <span class="logo-caption">STYLE WITH INTENTION</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#collections">Collections</a>
+          <a href="#story">Our Story</a>
+          <a href="#journal">Editorial</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#collections" class="nav-cta"
+          >Explore the edit <span>↗</span></a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero" id="home">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content reveal">
+          <p class="eyebrow hero-eyebrow">THE ART OF EVERYDAY ELEGANCE</p>
+
+          <h1>
+            Wear what feels<br />
+            <em>like you.</em>
+          </h1>
+
+          <p class="hero-description">
+            Discover thoughtfully selected pieces that celebrate your
+            individuality, your confidence and your own beautiful sense of
+            style.
+          </p>
+
+          <a href="#collections" class="button button-light">
+            Discover our collection <span>↗</span>
+          </a>
+
+          <div class="hero-note">
+            <span class="hero-line"></span>
+            STYLE THAT FEELS NATURAL
+          </div>
+        </div>
+
+        <div class="hero-index">01 / 04</div>
+      </section>
+
+      <!-- Brand values -->
+      <section class="values-strip" aria-label="Our values">
+        <div class="container values-inner">
+          <span>Timeless over trends</span>
+          <span class="value-dot">✳</span>
+          <span>Style with intention</span>
+          <span class="value-dot">✳</span>
+          <span>Confidence in every detail</span>
+        </div>
+      </section>
+
+      <!-- Collections -->
+      <section class="section collections-section" id="collections">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">THE PEACEFUL EDIT</p>
+              <h2>Pieces to <em>live in.</em></h2>
+            </div>
+
+            <p class="section-intro">
+              An edit of considered essentials, expressive silhouettes and
+              details worth remembering.
+            </p>
+          </div>
+
+          <div class="collection-filters" aria-label="Filter collections">
+            <button class="filter-btn active" data-filter="all">
+              All pieces
+            </button>
+            <button class="filter-btn" data-filter="clothing">Clothing</button>
+            <button class="filter-btn" data-filter="accessories">
+              Accessories
+            </button>
+            <button class="filter-btn" data-filter="footwear">Footwear</button>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card reveal" data-category="clothing">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Earthbound Set"
+              >
+                <span class="product-tag">THE SIGNATURE EDIT</span>
+                <img
+                  src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85"
+                  alt="Elegant neutral-toned fashion outfit"
+                  loading="lazy"
+                />
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>Earthbound Set</h3>
+                  <p>Relaxed contemporary wear</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+
+            <article class="product-card reveal" data-category="accessories">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Everyday Bag"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=85"
+                  alt="Classic structured leather handbag"
+                  loading="lazy"
+                />
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>The Everyday Bag</h3>
+                  <p>Finishing touches</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+
+            <article class="product-card reveal" data-category="clothing">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Soft Form Dress"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=85"
+                  alt="Elegant dress with a timeless silhouette"
+                  loading="lazy"
+                />
+                <span class="product-tag">TIMELESS FAVOURITE</span>
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>Soft Form Dress</h3>
+                  <p>Effortless occasion wear</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+
+            <article class="product-card reveal" data-category="footwear">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Quiet Step"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=85"
+                  alt="Elegant women's footwear"
+                  loading="lazy"
+                />
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>The Quiet Step</h3>
+                  <p>Everyday footwear</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+
+            <article class="product-card reveal" data-category="accessories">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Golden Hour"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85"
+                  alt="Delicate gold-toned fashion jewellery"
+                  loading="lazy"
+                />
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>Golden Hour</h3>
+                  <p>Jewellery and details</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+
+            <article class="product-card reveal" data-category="clothing">
+              <a
+                class="product-image"
+                href="#contact"
+                aria-label="Ask about the Sunday Layers"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=85"
+                  alt="Contemporary fashion styling inspiration"
+                  loading="lazy"
+                />
+                <span class="product-arrow">↗</span>
+              </a>
+              <div class="product-info">
+                <div>
+                  <h3>Sunday Layers</h3>
+                  <p>Everyday wardrobe essentials</p>
+                </div>
+                <span class="product-price">Ask for price</span>
+              </div>
+            </article>
+          </div>
+
+          <p class="collection-note">
+            Product names and photographs are sample content. Replace them with
+            your actual inventory before launch.
+          </p>
+        </div>
+
+        <p class="collection-note">
+          A few of our favourites, thoughtfully selected for you.
+        </p>
+
+        <div class="collection-footer">
+          <a href="shop.html" class="button button-dark">
+            View All Products <span>↗</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Brand story -->
+      <section class="story-section" id="story">
+        <div class="container story-grid">
+          <div class="story-image reveal">
+            <img
+              src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=85"
+              alt="Fashion editorial celebrating personal style"
+              loading="lazy"
+            />
+            <div class="story-image-note">
+              <span>OUR PHILOSOPHY</span>
+              <strong>Less noise. More meaning.</strong>
+            </div>
+          </div>
+
+          <div class="story-content reveal">
+            <p class="eyebrow">A LITTLE ABOUT US</p>
+            <h2>Fashion should feel like <em>freedom.</em></h2>
+
+            <p>
+              At Peaceful Varieties, we believe that getting dressed should be a
+              moment of self-expression, not pressure.
+            </p>
+
+            <p>
+              Our vision is to bring together versatile pieces, thoughtful
+              details and a sense of ease, helping you create a wardrobe that
+              feels personal and authentic.
+            </p>
+
+            <p>
+              Because true style is not about wearing more. It is about choosing
+              what feels right for you.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Get to know us <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial / portfolio -->
+      <section class="section journal-section" id="journal">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">THE STYLE JOURNAL</p>
+              <h2>Inspired by <em>everyday life.</em></h2>
+            </div>
+
+            <p class="section-intro">
+              A visual expression of how we see style: grounded, expressive and
+              beautifully individual.
+            </p>
+          </div>
+
+          <div class="editorial-grid">
+            <article class="editorial-card editorial-large reveal">
+              <img
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=85"
+                alt="Fashion editorial portrait"
+                loading="lazy"
+              />
+              <div class="editorial-caption">
+                <span>01 — THE SILHOUETTE</span>
+                <h3>Confidence in every form.</h3>
+              </div>
+            </article>
+
+            <article class="editorial-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=85"
+                alt="Friends exploring personal fashion style"
+                loading="lazy"
+              />
+              <div class="editorial-caption">
+                <span>02 — THE EVERYDAY</span>
+                <h3>Made for real life.</h3>
+              </div>
+            </article>
+
+            <article class="editorial-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85"
+                alt="Modern fashion and personal expression"
+                loading="lazy"
+              />
+              <div class="editorial-caption">
+                <span>03 — THE DETAILS</span>
+                <h3>Small details. Lasting feeling.</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-content reveal">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Your next favourite piece might be <em>here.</em></h2>
+            <p>
+              Have a question about a collection, sizing, availability or a
+              potential collaboration? We'd love to hear from you.
+            </p>
+
+            <div class="contact-detail">
+              <span class="contact-icon">✳</span>
+              <div>
+                <strong>Personal service</strong>
+                <p>Tell us what you're looking for.</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-icon">✳</span>
+              <div>
+                <strong>Collaborations</strong>
+                <p>Let's create something meaningful together.</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-heading">
+              <span>01 / SAY HELLO</span>
+              <h3>Send us a message.</h3>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Full name"
+                  autocomplete="name"
+                  required
+                  minlength="2"
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="subject">What is this about?</label>
+              <select id="subject" name="subject" required>
+                <option value="">Choose a topic</option>
+                <option value="product">Product enquiry</option>
+                <option value="order">Order enquiry</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Your message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us a little about what you need..."
+                required
+                minlength="10"
+              ></textarea>
+            </div>
+
+            <button class="button button-dark form-submit" type="submit">
+              Send your enquiry <span>↗</span>
+            </button>
+
+            <p
+              class="form-status"
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+            ></p>
+
+            <p class="form-disclaimer">
+              Demo form: connect a form service or backend before accepting real
+              customer enquiries.
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <!-- Newsletter-style call to action -->
+      <section class="closing-section">
+        <div class="container closing-content reveal">
+          <p class="eyebrow">A NOTE TO YOURSELF</p>
+          <h2>Wear your story.<br /><em>Own your style.</em></h2>
+          <a href="#collections" class="button button-light">
+            Explore the edit <span>↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-main">
+        <a class="logo footer-logo" href="#top">
+          <span class="logo-mark">P<span>V</span></span>
+          <span class="logo-name">Peaceful Varieties</span>
+          <span class="logo-caption">STYLE WITH INTENTION</span>
+        </a>
+
+        <p class="footer-message">
+          A little more intention.<br />
+          A little more you.
+        </p>
+
+        <div class="footer-links">
+          <a href="#collections">Collections</a>
+          <a href="#story">Our story</a>
+          <a href="#journal">Editorial</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Peaceful Varieties.</p>
+        <p>Made with intention. ♡</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

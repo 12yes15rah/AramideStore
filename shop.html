@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the full Peaceful Varieties fashion collection.">
+  <title>Shop All | Peaceful Varieties</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    Thoughtfully chosen fashion. Effortlessly yours.
+  </div>
+
+  <header class="header" id="top">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html" aria-label="Peaceful Varieties home">
+        <span class="logo-mark">P<span>V</span></span>
+        <span class="logo-name">Peaceful Varieties</span>
+        <span class="logo-caption">STYLE WITH INTENTION</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#collections" aria-current="page">Collections</a>
+        <a href="index.html#story">Our Story</a>
+        <a href="index.html#journal">Editorial</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <a href="index.html#contact" class="nav-cta">
+        Get in touch <span>↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="shop-intro">
+      <div class="container reveal">
+        <p class="eyebrow">THE COMPLETE COLLECTION</p>
+        <h1>Find your <em>kind of style.</em></h1>
+        <p>
+          Explore timeless clothing, finishing touches and
+          everyday essentials, thoughtfully brought together.
+        </p>
+        <div class="shop-breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Shop All</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shop-section">
+      <div class="container">
+
+        <div class="shop-toolbar">
+          <div>
+            <p class="eyebrow">THE PEACEFUL EDIT</p>
+            <h2>Shop all pieces</h2>
+          </div>
+          <p class="shop-count" id="shopCount" aria-live="polite">
+            12 pieces
+          </p>
+        </div>
+
+        <div class="collection-filters" aria-label="Filter products">
+          <button class="filter-btn active" data-filter="all"
+            aria-pressed="true">All pieces</button>
+          <button class="filter-btn" data-filter="clothing"
+            aria-pressed="false">Clothing</button>
+          <button class="filter-btn" data-filter="accessories"
+            aria-pressed="false">Accessories</button>
+          <button class="filter-btn" data-filter="footwear"
+            aria-pressed="false">Footwear</button>
+        </div>
+
+        <div class="product-grid shop-grid">
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <span class="product-tag">FEATURED</span>
+              <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85"
+                alt="Contemporary fashion outfit" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Earthbound Set</h3><p>Relaxed contemporary wear</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="accessories">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=85"
+                alt="Structured leather handbag" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Everyday Bag</h3><p>Finishing touches</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <span class="product-tag">FAVOURITE</span>
+              <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=85"
+                alt="Elegant dress" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Soft Form Dress</h3><p>Occasion wear</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="footwear">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=85"
+                alt="Women's fashion footwear" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Quiet Step</h3><p>Everyday footwear</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="accessories">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85"
+                alt="Gold-toned jewellery" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Golden Hour</h3><p>Jewellery and details</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=85"
+                alt="Contemporary everyday fashion" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Sunday Layers</h3><p>Wardrobe essentials</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=800&q=85"
+                alt="Minimal fashion styling" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Olive Ease</h3><p>Everyday separates</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="accessories">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85"
+                alt="Classic wristwatch accessory" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Everyday Classic</h3><p>Style accessories</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="footwear">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85"
+                alt="Casual statement footwear" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Weekend Walk</h3><p>Casual footwear</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1551163943-3f6a855d1153?auto=format&fit=crop&w=800&q=85"
+                alt="Modern clothing collection" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Soft Structure</h3><p>Contemporary clothing</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="accessories">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?auto=format&fit=crop&w=800&q=85"
+                alt="Fashion accessory detail" loading="lazy">
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Little Details</h3><p>Finishing touches</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="clothing">
+            <a class="product-image" href="index.html#contact">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85"
+                alt="Fashion editorial look" loading="lazy">
+              <span class="product-tag">NEW EDIT</span>
+              <span class="product-arrow">↗</span>
+            </a>
+            <div class="product-info">
+              <div><h3>Modern Muse</h3><p>Statement style</p></div>
+              <span class="product-price">Ask for price</span>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="collection-note">
+          These are sample products. Replace the names, photographs
+          and prices with your actual inventory.
+        </p>
+      </div>
+    </section>
+
+    <section class="shop-contact">
+      <div class="container">
+        <p class="eyebrow">NEED A LITTLE HELP?</p>
+        <h2>Looking for something <em>specific?</em></h2>
+        <a href="index.html#contact" class="button button-light">
+          Contact us <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="logo footer-logo" href="index.html">
+        <span class="logo-mark">P<span>V</span></span>
+        <span class="logo-name">Peaceful Varieties</span>
+        <span class="logo-caption">STYLE WITH INTENTION</span>
+      </a>
+
+      <p class="footer-message">A little more intention.<br>A little more you.</p>
+
+      <div class="footer-links">
+        <a href="index.html#collections">Featured collection</a>
+        <a href="index.html#story">Our story</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Peaceful Varieties.</p>
+      <p>Made with intention. ♡</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
